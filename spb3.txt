@@ -1,0 +1,27 @@
+{"SBT-ID": "SBT-2", "prompt": "initialize could be called multiple times", "response": "That is correct, malicious actors or lost keys could be dangerous here."}
+
+{"SBT-ID": "SBT-2", "prompt": "doesn't restrict initalizing only once", "response": "That is correct, this could be initliazed more than once."}
+
+{"SBT-ID": "SBT-2", "prompt": "missing initializer modifier", "response": "Correct, the modifier is missing and could lead to mulitple initalizations."}
+
+{"SBT-ID": "SBT-2", "prompt": "could be called multiple times", "response": "That is correct, malicious actors or lost keys could be dangerous here."}
+
+{"SBT-ID": "SBT-2", "prompt": "initalizer modifier", "response": "Make sure to use the modifier to protect from multiple initializations."}
+
+{"SBT-ID": "SBT-2", "prompt": "multiple initalization calls", "response": "Correct, it's possible to call the initalize function more than once."}
+
+{"SBT-ID": "SBT-2", "prompt": "modifier not used", "response": "Nice, the initializer modifier is not used."}
+
+{"SBT-ID": "SBT-2", "prompt": "not using modifier", "response": "Nice, the function is vulnerable to multiple calls."}
+
+{"SBT-ID": "SBT-2", "prompt": "two initalizations could be called", "response": "That is correct!"}
+
+{"SBT-ID": "SBT-2", "prompt": "modifier not used in initialize()", "response": "Nice!"}
+
+{"SBT-ID": "SBT-2", "prompt": "mismodifier in initialize()", "response": "You found a mistake!"}
+
+{"SBT-ID": "SBT-2", "prompt": "initialize() function is public", "response": "That is correct."}
+
+{"SBT-ID": "SBT-2", "prompt": "modifier not used in initialize() function", "response": "Nice!"}
+
+{"SBT-ID": "SBT-2", "prompt": "double initalization could happen", "response": "You found a mistake."}
