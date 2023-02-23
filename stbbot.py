@@ -30,8 +30,8 @@ def construct_index(directory_path):
 
     return index
 
-def ask_ai():
+def ask_ai(user_msg):
+    index = GPTSimpleVectorIndex.load_from_disk('index.json')
     while True: 
-        query = input("Think you've found the bug? Enter your theory: ")
-        response = index.query(query, response_mode="compact")
+        response = index.query(user_msg, response_mode="compact")
         return response.response
